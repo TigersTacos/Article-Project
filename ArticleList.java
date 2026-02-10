@@ -174,7 +174,7 @@ public class ArticleList {
 
 	    System.out.println("FETCHING ARTICLES FOR TOPIC = " + topic);
 	    
-	    ArticleGetter a = new ArticleGetter(topic, "0165439630a24028bcf3ab1d2974d6d2");
+	    ArticleGetter a = new ArticleGetter(topic, "insert news.api key here");
 	    JSONArray arr = a.getArticles();
 
 	    if (arr != null) {
